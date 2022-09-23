@@ -1,0 +1,202 @@
+*
+    {
+        
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 23px;
+    }
+
+body   
+    {
+        width: 99%;
+    }
+
+html    
+    {
+        height: 300%;
+        
+        background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(16, 167, 205, 0.5));
+    }
+
+
+h2 
+    {
+        font-size: 31px;
+    }
+
+h1  
+    {
+        font-size: 40px;
+    }
+
+#field1
+    {
+        
+        width: 590px;
+        
+        display: grid;
+        height: 550px;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+        text-align: center;
+        border-radius: 10px;
+        
+    }
+
+#field2
+    {
+        border-radius: 10px;
+    }
+
+#field2 > div
+    {
+        text-align: center;
+        font-size: 27px;
+    }
+
+.legend
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+
+#paymentTime
+    {
+     text-align: center;
+     font-size: 30px;
+
+    }
+
+.slider
+    {
+        opacity: 0.7;
+        transition: opacity .2s;
+        border-radius: 10px;
+        width: 200px;
+    }
+
+#Id
+    {
+        float:right;
+        margin-left: 50px;
+    }
+
+.button
+    {
+        
+        text-align: center;
+        height: 40px;
+        width: 125px;
+        margin-right: 240px;
+        border-radius: 10px;
+        background-color: rgb(47, 45, 45);
+        color: white;
+    }
+
+.button:hover  
+    {    
+        background-color: rgb(47, 45, 45, 0.7);
+    }
+
+
+
+#header
+    {
+        margin-left: 36%;
+        font-size: 40px;
+    }
+
+input.checkbox
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+select  
+    {
+        float: right;
+    }
+
+
+#mainForm
+    {
+        
+        width: 600px;
+        margin-left: 30%;
+        position: absolute;
+        
+    }
+
+#output
+    {
+        margin-left: 475px
+    }
+
+fieldset>input
+    {
+        float: right;
+        text-align: center;   
+    }
+
+#st 
+    {
+        width: 240px;
+        text-align: center;
+    }
+
+
+#submit
+    {
+        margin-right: 240px;
+    }
+
+.rightBar
+    {
+        margin-left: 75%;
+        width: 300px;
+        
+        position: relative;
+        
+    }
+
+#creditCard
+    {
+        border-radius: 10px;
+
+    }
+
+input[type=radio] 
+    {
+        border: 0px;
+        width: 50%;
+        height: 1.1em;
+    }
+
+#qORc
+    {
+        border-radius: 10px;
+        resize: none;
+    }
+
+.icon
+    {
+        display: inline-block;
+        
+
+    }
+
+.visa
+    {
+        margin-right: 10px;
+        margin-left: 6px;
+    }
+
+#field3
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+#master-card
+    {
+        margin-right: 85px;
+    }
